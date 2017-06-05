@@ -18,7 +18,7 @@ get '/documentation' => sub () {
 use lib 'lib';
 require BailadorGradual;
 
-baile();
+baile(3001,'0.0.0.0');
 
 # vim: expandtab
 # vim: tabstop=4
